@@ -18,7 +18,7 @@ router.post('/postquery',async(req,res)=>{
     const {name,email,organization,phone,siteloc} = req.body;
     console.log(req.body)
     const options = {
-      from:"saiteja6734.yelagandula@gmail.com",
+      from:"COWE Customer Services",
       to:email,
       subject:"Query from "+name,
       text:"Name : " + name + "\n" + "Email : "+email + "\n" + "Organization : "+organization + "\n" + "Phone Number : "  + phone + "\n" +  "Site Location : "+siteloc,
